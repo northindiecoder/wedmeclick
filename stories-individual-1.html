@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wedmebells</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="stories-individual.css">
+</head>
+<body>
+    <section class="stories-first-section">
+        
+    
+        <nav>
+        <div class="logo">
+            <a href="#">wedmeclick</a>
+        </div>
+        <div class="nav-toggle" id="nav-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+        <ul class="nav-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Stories.html">Stories</a></li>
+            <li><a href="testimonial.html">testimonials</a></li>
+            <li><a href="gallery.html">gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</section>
+
+<section class="about-love-story">
+    <div class="heading">
+        <h1 class="couple-name">
+            Natasha & Subhdeep
+        </h1>
+    </div>
+    <div class="paragraph">
+        <p class="individual-story">
+            As the sun set and the stars filled the sky, Natasha and Subhdeep looked into each other's eyes, knowing that they had found their happily ever after. And as they danced together under the moonlight, surrounded by the people they loved, they knew that this was just the beginning of their beautiful journey together.
+        </p>
+    
+    </div>
+
+    <div id="videoContainer"></div>
+    <script src="https://player.vimeo.com/api/player.js"></script>
+    <script>
+      // Replace with your Vimeo video ID
+      const videoId = '933613998';
+
+      // Create the video container div
+      const videoContainer = document.getElementById('videoContainer');
+
+      // Create an iframe element for the Vimeo video player
+      const iframe = document.createElement('iframe');
+      iframe.src = `https://player.vimeo.com/video/${videoId}`;
+      iframe.width = '640';
+      iframe.height = '360';
+      iframe.frameBorder = '0';
+      iframe.allow = 'autoplay; fullscreen; picture-in-picture';
+      iframe.allowFullscreen = true;
+
+      // Append the iframe to the video container div
+      videoContainer.appendChild(iframe);
+
+      // Create a new Vimeo player instance
+      const player = new Vimeo.Player(iframe);
+
+      // You can add event listeners or control the player using the player object
+      // For example, to play the video automatically:
+      player.play();
+    </script>
+
+<div class="container">
+    <div class="image-box full-width"><img src="Stories-Natasha & Subhdeep/1.webp" alt=""></div>
+    <div class="image-box full-width"><img src="Stories-Natasha & Subhdeep/3.webp" alt=""></div>
+    <div class="image-box full-width"><img src="Stories-Natasha & Subhdeep/4.webp" alt=""></div>
+    <div class="image-box full-width"><img src="Stories-Natasha & Subhdeep/5.webp" alt=""></div>
+    <div class="image-box half-width"><img src="Stories-Natasha & Subhdeep/2.webp" alt=""></div>
+    <div class="image-box half-width"><img src="Stories-Natasha & Subhdeep/6.webp" alt=""></div>
+    <div class="image-box full-width"><img src="Stories-Natasha & Subhdeep/7.webp" alt=""></div>
+    <div class="image-box full-width"><img src="Stories-Natasha & Subhdeep/8.webp" alt=""></div>
+    
+    <div class="image-box half-width"><img src="Stories-Natasha & Subhdeep/9.webp" alt=""></div>
+    <div class="image-box half-width"><img src="Stories-Natasha & Subhdeep/10.webp" alt=""></div>
+   
+  </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+<footer>
+    <section class="footer">
+      <div class="social-icons">
+        <a href="https://vimeo.com/user132654745" target="_blank"><i class="fab fa-vimeo fa-lg"></i></a>
+        <a href="https://www.youtube.com/@wedmeclick918" target="_blank"><i class="fab fa-youtube fa-lg"></i></a>
+        <a href="https://www.instagram.com/wedmeclickproduction/" target="_blank"><i class="fab fa-instagram fa-lg"></i></a>
+  
+        <!-- Add more social media icons here -->
+      </div>
+      <div class="company-name">
+        
+          <h3>
+            wedmeclick productions
+            
+  
+          </h3>
+          <h4>Manglam Place, Sector 3, Rohini, Delhi 110085, India</h4>
+          
+      </div>
+  
+      <div class="copyright">
+  
+      </div>
+  
+    </section>
+  
+  </footer>
+</html>
